@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: b3596f8cba9e56c41b018abb307340f7
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: cc34d0f3dc257a442819830b408c5322, type: 3}
+  missingFiles:
+  - Assets/SuperTiled2Unity/TileSet/Modern_Office_Revamped_v1.0/Modern_Office_Revamped/Modern_Office_16x16.png
+  errors:
+  - 'Missing texture asset: ../../TileSet/Modern_Office_Revamped_v1.0/Modern_Office_Revamped/Modern_Office_16x16.png'
+  warnings: []
+  missingSortingLayers: []
+  missingLayers: []
+  missingTags: []
+  importerVersion: 11
+  pixelsPerUnit: 100
+  edgesPerEllipse: 32
+  numberOfObjectsImported: 2
+  useSpriteAtlas: 1
+  atlasWidth: 2048
+  atlasHeight: 2048
