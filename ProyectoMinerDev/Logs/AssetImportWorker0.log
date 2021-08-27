@@ -15,11 +15,11 @@ C:/Users/jagar/Documents/GitHub/Devs/ProyectoMinerDev
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49830
+60104
 Successfully changed project path to: C:/Users/jagar/Documents/GitHub/Devs/ProyectoMinerDev
 C:/Users/jagar/Documents/GitHub/Devs/ProyectoMinerDev
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 71.53 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 178.76 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.16f1 (049d6eca3c44)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/Resources/UnitySubsystems
@@ -35,92 +35,92 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56940
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56612
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003172 seconds.
+Registered in 0.007897 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 64.33 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 190.05 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.397 seconds
+- Completed reload, in  5.117 seconds
 Domain Reload Profiling:
-	ReloadAssembly (4398ms)
-		BeginReloadAssembly (144ms)
+	ReloadAssembly (5117ms)
+		BeginReloadAssembly (184ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (746ms)
-			LoadAssemblies (141ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1591ms)
+			LoadAssemblies (181ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (257ms)
+			SetupTypeCache (640ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (50ms)
-			SetupLoadedEditorAssemblies (322ms)
+			RebuildScriptCaches (126ms)
+			SetupLoadedEditorAssemblies (525ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (64ms)
-				BeforeProcessingInitializeOnLoad (17ms)
-				ProcessInitializeOnLoadAttributes (162ms)
-				ProcessInitializeOnLoadMethodAttributes (70ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (190ms)
+				BeforeProcessingInitializeOnLoad (25ms)
+				ProcessInitializeOnLoadAttributes (214ms)
+				ProcessInitializeOnLoadMethodAttributes (76ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (1ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.011171 seconds.
+Registered in 0.019496 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 73.49 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 122.83 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.336 seconds
+- Completed reload, in  2.880 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2337ms)
-		BeginReloadAssembly (248ms)
+	ReloadAssembly (2882ms)
+		BeginReloadAssembly (338ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (14ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (1991ms)
-			LoadAssemblies (152ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (2418ms)
+			LoadAssemblies (205ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (666ms)
+			SetupTypeCache (753ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (86ms)
-			SetupLoadedEditorAssemblies (883ms)
+			RebuildScriptCaches (130ms)
+			SetupLoadedEditorAssemblies (993ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (74ms)
-				BeforeProcessingInitializeOnLoad (163ms)
-				ProcessInitializeOnLoadAttributes (610ms)
-				ProcessInitializeOnLoadMethodAttributes (21ms)
-				AfterProcessingInitializeOnLoad (8ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (123ms)
+				BeforeProcessingInitializeOnLoad (161ms)
+				ProcessInitializeOnLoadAttributes (657ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (13ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2242 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2243 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 97.0 MB.
 System memory in use after: 97.1 MB.
 
 Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2679.
-Total: 4.633300 ms (FindLiveObjects: 0.273300 ms CreateObjectMapping: 0.143800 ms MarkObjects: 4.121200 ms  DeleteObjects: 0.093100 ms)
+Total: 5.809000 ms (FindLiveObjects: 0.303100 ms CreateObjectMapping: 0.141400 ms MarkObjects: 5.216700 ms  DeleteObjects: 0.145300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -134,322 +134,58 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Spirates
-  artifactKey: Guid(bcccc6dffa1d7654daccdf6de0a0bcb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates using Guid(bcccc6dffa1d7654daccdf6de0a0bcb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38f6f77702284fdd99c026f5e534e2ff') in 0.010506 seconds 
-  Import took 0.016026 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 242.696040 seconds.
-  path: Assets/Spirates/1_Generic_32x32.png
-  artifactKey: Guid(f2aa945a1e5341144873d631871ba9d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/1_Generic_32x32.png using Guid(f2aa945a1e5341144873d631871ba9d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ae03a193cce62417a625c46d4885ec8') in 0.250274 seconds 
-  Import took 0.257455 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000398 seconds.
-  path: Assets/Spirates/18_Jail_32x32.png
-  artifactKey: Guid(42bab93a03f79c74f849139a4e36c71f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/18_Jail_32x32.png using Guid(42bab93a03f79c74f849139a4e36c71f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e24be50a96c71a15b538b2417de54ece') in 0.037233 seconds 
-  Import took 0.042052 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000419 seconds.
-  path: Assets/Spirates/8_Gym_32x32.png
-  artifactKey: Guid(97b8c3c1f3caaaf41b7b5eee2b8fc4ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/8_Gym_32x32.png using Guid(97b8c3c1f3caaaf41b7b5eee2b8fc4ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2eebf5a5f277d71c2b2657103c1328d') in 0.029266 seconds 
-  Import took 0.034418 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000363 seconds.
-  path: Assets/Spirates/5_Classroom_and_library_32x32.png
-  artifactKey: Guid(97c7c700066056b4297d1f86ce089263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/5_Classroom_and_library_32x32.png using Guid(97c7c700066056b4297d1f86ce089263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61343d697154fb996234f8f0e95d1a03') in 0.039426 seconds 
-  Import took 0.046111 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000375 seconds.
-  path: Assets/Spirates/2_LivingRoom_32x32.png
-  artifactKey: Guid(ef2513bb61b3dbd4ca0965e70b63f3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/2_LivingRoom_32x32.png using Guid(ef2513bb61b3dbd4ca0965e70b63f3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13958aad602b6728152d3b79f98cf2a7') in 0.030788 seconds 
-  Import took 0.036689 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000368 seconds.
-  path: Assets/Spirates/14_Basement_32x32.png
-  artifactKey: Guid(df692bff878367149b781edebf320a52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/14_Basement_32x32.png using Guid(df692bff878367149b781edebf320a52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '341402e5bef35b51671634c7f6b8ae6f') in 0.031935 seconds 
-  Import took 0.039912 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000655 seconds.
-  path: Assets/Spirates/2_LivingRoom_32x32.png
-  artifactKey: Guid(ef2513bb61b3dbd4ca0965e70b63f3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/2_LivingRoom_32x32.png using Guid(ef2513bb61b3dbd4ca0965e70b63f3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13958aad602b6728152d3b79f98cf2a7') in 0.032260 seconds 
-  Import took 0.039066 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000372 seconds.
-  path: Assets/Spirates/4_Bedroom_32x32.png
-  artifactKey: Guid(1b530ff7d5638914bb49a179698c623f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/4_Bedroom_32x32.png using Guid(1b530ff7d5638914bb49a179698c623f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9908f13dd1ac3143028cce0e04ab67fb') in 0.027151 seconds 
-  Import took 0.032292 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000370 seconds.
-  path: Assets/Spirates/3_Bathroom_32x32.png
-  artifactKey: Guid(17e6db4b5e650864781ca4edee1c36f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/3_Bathroom_32x32.png using Guid(17e6db4b5e650864781ca4edee1c36f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34023c0163241e07691efd1560292634') in 0.033882 seconds 
-  Import took 0.044175 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 35.028400 seconds.
-  path: Assets/Spirates/Modern_Office_Black_Shadow_32x32.png
-  artifactKey: Guid(4bc08b638ff26824cab2c8319834d872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Modern_Office_Black_Shadow_32x32.png using Guid(4bc08b638ff26824cab2c8319834d872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fef3c8cdb80f4d9835be2dbe6e59e524') in 0.036845 seconds 
-  Import took 0.045039 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002559 seconds.
-  path: Assets/Spirates/Modern_Office_Black_Shadow_32x32.png
-  artifactKey: Guid(4bc08b638ff26824cab2c8319834d872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Modern_Office_Black_Shadow_32x32.png using Guid(4bc08b638ff26824cab2c8319834d872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fef3c8cdb80f4d9835be2dbe6e59e524') in 0.027272 seconds 
-  Import took 0.036302 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.631837 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32.png
-  artifactKey: Guid(e26d5a6cbcd36af45b0d6e789c620b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32.png using Guid(e26d5a6cbcd36af45b0d6e789c620b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49aa8f8f6cc4e5e64eb82362b06c0dca') in 0.022104 seconds 
-  Import took 0.029666 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 44.791431 seconds.
-  path: Assets/Spirates/1_Generic_32x32.png
-  artifactKey: Guid(f2aa945a1e5341144873d631871ba9d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/1_Generic_32x32.png using Guid(f2aa945a1e5341144873d631871ba9d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11cb6470e4175ba03644c0d6c06cdc0a') in 0.022085 seconds 
-  Import took 0.028896 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.014060 seconds.
-  path: Assets/Spirates/1_Generic_32x32.png
-  artifactKey: Guid(f2aa945a1e5341144873d631871ba9d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/1_Generic_32x32.png using Guid(f2aa945a1e5341144873d631871ba9d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11cb6470e4175ba03644c0d6c06cdc0a') in 0.021991 seconds 
-  Import took 0.031338 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.299668 seconds.
-  path: Assets/Spirates/2_LivingRoom_32x32.png
-  artifactKey: Guid(ef2513bb61b3dbd4ca0965e70b63f3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/2_LivingRoom_32x32.png using Guid(ef2513bb61b3dbd4ca0965e70b63f3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6be1769bf15bd5c2b2d52b1fc2b6b731') in 0.022009 seconds 
-  Import took 0.029671 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.014222 seconds.
-  path: Assets/Spirates/2_LivingRoom_32x32.png
-  artifactKey: Guid(ef2513bb61b3dbd4ca0965e70b63f3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/2_LivingRoom_32x32.png using Guid(ef2513bb61b3dbd4ca0965e70b63f3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6be1769bf15bd5c2b2d52b1fc2b6b731') in 0.023572 seconds 
-  Import took 0.032713 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.795921 seconds.
-  path: Assets/Spirates/3_Bathroom_32x32.png
-  artifactKey: Guid(17e6db4b5e650864781ca4edee1c36f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/3_Bathroom_32x32.png using Guid(17e6db4b5e650864781ca4edee1c36f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddf3b60164ed4566c07934bb7907a5a4') in 0.034814 seconds 
-  Import took 0.045219 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.015442 seconds.
-  path: Assets/Spirates/3_Bathroom_32x32.png
-  artifactKey: Guid(17e6db4b5e650864781ca4edee1c36f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/3_Bathroom_32x32.png using Guid(17e6db4b5e650864781ca4edee1c36f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddf3b60164ed4566c07934bb7907a5a4') in 0.029736 seconds 
-  Import took 0.046638 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.913903 seconds.
-  path: Assets/Spirates/4_Bedroom_32x32.png
-  artifactKey: Guid(1b530ff7d5638914bb49a179698c623f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/4_Bedroom_32x32.png using Guid(1b530ff7d5638914bb49a179698c623f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67f53a6f6ca3bdb49636d83d90e58235') in 0.020966 seconds 
-  Import took 0.030123 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.014719 seconds.
-  path: Assets/Spirates/4_Bedroom_32x32.png
-  artifactKey: Guid(1b530ff7d5638914bb49a179698c623f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/4_Bedroom_32x32.png using Guid(1b530ff7d5638914bb49a179698c623f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67f53a6f6ca3bdb49636d83d90e58235') in 0.016199 seconds 
-  Import took 0.023439 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.539737 seconds.
-  path: Assets/Spirates/5_Classroom_and_library_32x32.png
-  artifactKey: Guid(97c7c700066056b4297d1f86ce089263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/5_Classroom_and_library_32x32.png using Guid(97c7c700066056b4297d1f86ce089263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b44a4458c857d63bf86341a7a7aa4e1') in 0.019400 seconds 
-  Import took 0.026911 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.009954 seconds.
-  path: Assets/Spirates/5_Classroom_and_library_32x32.png
-  artifactKey: Guid(97c7c700066056b4297d1f86ce089263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/5_Classroom_and_library_32x32.png using Guid(97c7c700066056b4297d1f86ce089263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b44a4458c857d63bf86341a7a7aa4e1') in 0.017940 seconds 
-  Import took 0.024707 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.057779 seconds.
-  path: Assets/Spirates/8_Gym_32x32.png
-  artifactKey: Guid(97b8c3c1f3caaaf41b7b5eee2b8fc4ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/8_Gym_32x32.png using Guid(97b8c3c1f3caaaf41b7b5eee2b8fc4ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7048288f40e12a87854d343a1b7f70b') in 0.016394 seconds 
-  Import took 0.023176 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.021562 seconds.
-  path: Assets/Spirates/8_Gym_32x32.png
-  artifactKey: Guid(97b8c3c1f3caaaf41b7b5eee2b8fc4ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/8_Gym_32x32.png using Guid(97b8c3c1f3caaaf41b7b5eee2b8fc4ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7048288f40e12a87854d343a1b7f70b') in 0.017746 seconds 
-  Import took 0.026196 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.032636 seconds.
-  path: Assets/Spirates/14_Basement_32x32.png
-  artifactKey: Guid(df692bff878367149b781edebf320a52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/14_Basement_32x32.png using Guid(df692bff878367149b781edebf320a52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c413629207592814625816af28aa71eb') in 0.027559 seconds 
-  Import took 0.035522 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.007083 seconds.
-  path: Assets/Spirates/14_Basement_32x32.png
-  artifactKey: Guid(df692bff878367149b781edebf320a52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/14_Basement_32x32.png using Guid(df692bff878367149b781edebf320a52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c413629207592814625816af28aa71eb') in 0.018862 seconds 
-  Import took 0.029760 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.733702 seconds.
-  path: Assets/Spirates/18_Jail_32x32.png
-  artifactKey: Guid(42bab93a03f79c74f849139a4e36c71f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/18_Jail_32x32.png using Guid(42bab93a03f79c74f849139a4e36c71f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffa6922d997c9cf2f0bee568426f0b9d') in 0.022151 seconds 
-  Import took 0.030300 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.007030 seconds.
-  path: Assets/Spirates/18_Jail_32x32.png
-  artifactKey: Guid(42bab93a03f79c74f849139a4e36c71f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/18_Jail_32x32.png using Guid(42bab93a03f79c74f849139a4e36c71f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffa6922d997c9cf2f0bee568426f0b9d') in 0.019317 seconds 
-  Import took 0.027891 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.332307 seconds.
-  path: Assets/Spirates/Modern_Office_Black_Shadow_32x32.png
-  artifactKey: Guid(4bc08b638ff26824cab2c8319834d872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Modern_Office_Black_Shadow_32x32.png using Guid(4bc08b638ff26824cab2c8319834d872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c4b4102cf9e4874bc4fcc908bf06031') in 0.026398 seconds 
-  Import took 0.034799 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.008790 seconds.
-  path: Assets/Spirates/Modern_Office_Black_Shadow_32x32.png
-  artifactKey: Guid(4bc08b638ff26824cab2c8319834d872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Modern_Office_Black_Shadow_32x32.png using Guid(4bc08b638ff26824cab2c8319834d872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c4b4102cf9e4874bc4fcc908bf06031') in 0.022203 seconds 
-  Import took 0.031602 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.278053 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32.png
-  artifactKey: Guid(e26d5a6cbcd36af45b0d6e789c620b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32.png using Guid(e26d5a6cbcd36af45b0d6e789c620b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5671461ca01b94d0d8bff950691be28') in 0.014455 seconds 
-  Import took 0.022808 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.012674 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32.png
-  artifactKey: Guid(e26d5a6cbcd36af45b0d6e789c620b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32.png using Guid(e26d5a6cbcd36af45b0d6e789c620b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5671461ca01b94d0d8bff950691be28') in 0.016474 seconds 
-  Import took 0.023838 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 78.020468 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32.png
-  artifactKey: Guid(e26d5a6cbcd36af45b0d6e789c620b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32.png using Guid(e26d5a6cbcd36af45b0d6e789c620b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad93bb418fdf0cf85da47f950c771a8a') in 0.575255 seconds 
-  Import took 0.581964 seconds .
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95df672b4aaba54310d34c83eef51bb8') in 0.077981 seconds 
+  Import took 0.084614 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006832 seconds.
+Registered in 0.006632 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.161 seconds
+- Completed reload, in  2.009 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2162ms)
-		BeginReloadAssembly (295ms)
+	ReloadAssembly (2010ms)
+		BeginReloadAssembly (186ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (13ms)
+			DisableScriptedObjects (11ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (61ms)
-		EndReloadAssembly (1747ms)
-			LoadAssemblies (241ms)
+			CreateAndSetChildDomain (57ms)
+		EndReloadAssembly (1712ms)
+			LoadAssemblies (166ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (583ms)
+			SetupTypeCache (573ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (83ms)
-			SetupLoadedEditorAssemblies (690ms)
+			SetupLoadedEditorAssemblies (663ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
+				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (120ms)
-				ProcessInitializeOnLoadAttributes (532ms)
-				ProcessInitializeOnLoadMethodAttributes (11ms)
-				AfterProcessingInitializeOnLoad (13ms)
+				BeforeProcessingInitializeOnLoad (112ms)
+				ProcessInitializeOnLoadAttributes (519ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (10ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (19ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
 Platform modules already initialized, skipping
 Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.15 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2236 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 99.8 MB.
-System memory in use after: 99.9 MB.
+System memory in use before: 96.6 MB.
+System memory in use after: 96.7 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2706.
-Total: 4.495000 ms (FindLiveObjects: 0.263500 ms CreateObjectMapping: 0.140400 ms MarkObjects: 4.056800 ms  DeleteObjects: 0.032500 ms)
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2682.
+Total: 8.098200 ms (FindLiveObjects: 0.495400 ms CreateObjectMapping: 0.266500 ms MarkObjects: 7.301300 ms  DeleteObjects: 0.032500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -464,14 +200,51 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 6.31 ms, found 3 plugins.
+Registering precompiled user dll's ...
+Registered in 0.007845 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 56.0 MB.
-System memory in use after: 56.2 MB.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.748 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2749ms)
+		BeginReloadAssembly (236ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (67ms)
+		EndReloadAssembly (2384ms)
+			LoadAssemblies (217ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (629ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (102ms)
+			SetupLoadedEditorAssemblies (1165ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (161ms)
+				ProcessInitializeOnLoadAttributes (953ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (22ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (37ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2236 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.7 MB.
+System memory in use after: 96.8 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2706.
-Total: 4.821300 ms (FindLiveObjects: 0.299000 ms CreateObjectMapping: 0.162500 ms MarkObjects: 4.332700 ms  DeleteObjects: 0.025800 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2685.
+Total: 10.843800 ms (FindLiveObjects: 0.504500 ms CreateObjectMapping: 0.292700 ms MarkObjects: 9.977300 ms  DeleteObjects: 0.065400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -481,1614 +254,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 142.443132 seconds.
-  path: Assets/Spirates/18_Jail_32x32.png
-  artifactKey: Guid(42bab93a03f79c74f849139a4e36c71f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/18_Jail_32x32.png using Guid(42bab93a03f79c74f849139a4e36c71f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0fccfee6378008f5f5d39be39bf4dd2') in 0.050713 seconds 
-  Import took 0.055836 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000400 seconds.
-  path: Assets/Spirates/8_Gym_32x32.png
-  artifactKey: Guid(97b8c3c1f3caaaf41b7b5eee2b8fc4ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/8_Gym_32x32.png using Guid(97b8c3c1f3caaaf41b7b5eee2b8fc4ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2feec169c62d633c251d3a31745491f9') in 0.018084 seconds 
-  Import took 0.026502 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000609 seconds.
-  path: Assets/Spirates/5_Classroom_and_library_32x32.png
-  artifactKey: Guid(97c7c700066056b4297d1f86ce089263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/5_Classroom_and_library_32x32.png using Guid(97c7c700066056b4297d1f86ce089263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bb02d1f263735ace44d6a8761da34e2') in 0.016695 seconds 
-  Import took 0.025190 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000487 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32.png
-  artifactKey: Guid(e26d5a6cbcd36af45b0d6e789c620b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32.png using Guid(e26d5a6cbcd36af45b0d6e789c620b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '211d73170dc598f03460840855941a82') in 0.639668 seconds 
-  Import took 0.646170 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000418 seconds.
-  path: Assets/Spirates/2_LivingRoom_32x32.png
-  artifactKey: Guid(ef2513bb61b3dbd4ca0965e70b63f3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/2_LivingRoom_32x32.png using Guid(ef2513bb61b3dbd4ca0965e70b63f3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd62f2b3cfc845f656b3e3df7eb55f7cc') in 0.024124 seconds 
-  Import took 0.030322 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000448 seconds.
-  path: Assets/Spirates/14_Basement_32x32.png
-  artifactKey: Guid(df692bff878367149b781edebf320a52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/14_Basement_32x32.png using Guid(df692bff878367149b781edebf320a52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e93f4d3f332da34b446a08f71a2ce55f') in 0.027044 seconds 
-  Import took 0.033833 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000443 seconds.
-  path: Assets/Spirates/1_Generic_32x32.png
-  artifactKey: Guid(f2aa945a1e5341144873d631871ba9d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/1_Generic_32x32.png using Guid(f2aa945a1e5341144873d631871ba9d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e2aa56485225e17be45313bc5afb46e') in 0.027467 seconds 
-  Import took 0.036706 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000412 seconds.
-  path: Assets/Spirates/4_Bedroom_32x32.png
-  artifactKey: Guid(1b530ff7d5638914bb49a179698c623f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/4_Bedroom_32x32.png using Guid(1b530ff7d5638914bb49a179698c623f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a0812d886f609ec36c727b4ab4ef483') in 0.020818 seconds 
-  Import took 0.028466 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000525 seconds.
-  path: Assets/Spirates/3_Bathroom_32x32.png
-  artifactKey: Guid(17e6db4b5e650864781ca4edee1c36f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/3_Bathroom_32x32.png using Guid(17e6db4b5e650864781ca4edee1c36f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a229a52789d483130b098ac79daaa2b2') in 0.022179 seconds 
-  Import took 0.028967 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000393 seconds.
-  path: Assets/Spirates/Modern_Office_Black_Shadow_32x32.png
-  artifactKey: Guid(4bc08b638ff26824cab2c8319834d872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Modern_Office_Black_Shadow_32x32.png using Guid(4bc08b638ff26824cab2c8319834d872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36d3474f322ab3aeebf444b20b6a570f') in 0.021757 seconds 
-  Import took 0.030194 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 62.735725 seconds.
-  path: Assets/Scripts
-  artifactKey: Guid(3289d00c00efc04489b6f11d65b0543d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(3289d00c00efc04489b6f11d65b0543d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c55fede031515d14bf7bb8d298644352') in 0.006498 seconds 
-  Import took 0.013470 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 69.873623 seconds.
-  path: Assets/Spirates/1_Generic_32x32.png
-  artifactKey: Guid(f2aa945a1e5341144873d631871ba9d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/1_Generic_32x32.png using Guid(f2aa945a1e5341144873d631871ba9d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2de170cf434abda627679a07a54c72d') in 4.850212 seconds 
-  Import took 4.866037 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.930162 seconds.
-  path: Assets/Spirates/2_LivingRoom_32x32.png
-  artifactKey: Guid(ef2513bb61b3dbd4ca0965e70b63f3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/2_LivingRoom_32x32.png using Guid(ef2513bb61b3dbd4ca0965e70b63f3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '675f12a620ca803709de12b9507ff17f') in 2.561561 seconds 
-  Import took 2.571871 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.002489 seconds.
-  path: Assets/Spirates/3_Bathroom_32x32.png
-  artifactKey: Guid(17e6db4b5e650864781ca4edee1c36f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/3_Bathroom_32x32.png using Guid(17e6db4b5e650864781ca4edee1c36f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28f7ca2f4df283c92e76650ad05a9e15') in 3.225602 seconds 
-  Import took 3.238439 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 57.304682 seconds.
-  path: Assets/Spirates/4_Bedroom_32x32.png
-  artifactKey: Guid(1b530ff7d5638914bb49a179698c623f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/4_Bedroom_32x32.png using Guid(1b530ff7d5638914bb49a179698c623f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c49c51159bab0471bfd124491801587f') in 5.907814 seconds 
-  Import took 5.922862 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.666722 seconds.
-  path: Assets/Spirates/5_Classroom_and_library_32x32.png
-  artifactKey: Guid(97c7c700066056b4297d1f86ce089263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/5_Classroom_and_library_32x32.png using Guid(97c7c700066056b4297d1f86ce089263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26ffe3605152da0cd9766d16a6a7659a') in 2.498982 seconds 
-  Import took 2.508097 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.333476 seconds.
-  path: Assets/Spirates/8_Gym_32x32.png
-  artifactKey: Guid(97b8c3c1f3caaaf41b7b5eee2b8fc4ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/8_Gym_32x32.png using Guid(97b8c3c1f3caaaf41b7b5eee2b8fc4ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abe076cb57d13b76291ae4ae5abaf4d4') in 1.058954 seconds 
-  Import took 1.067251 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.719471 seconds.
-  path: Assets/Spirates/14_Basement_32x32.png
-  artifactKey: Guid(df692bff878367149b781edebf320a52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/14_Basement_32x32.png using Guid(df692bff878367149b781edebf320a52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73ddb4698a7d494ed1c0999ad5c81325') in 2.654420 seconds 
-  Import took 2.664189 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.327689 seconds.
-  path: Assets/Spirates/18_Jail_32x32.png
-  artifactKey: Guid(42bab93a03f79c74f849139a4e36c71f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/18_Jail_32x32.png using Guid(42bab93a03f79c74f849139a4e36c71f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1d21b7331b6cba7f97e5a53ca70caa6') in 2.738008 seconds 
-  Import took 2.748522 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.112426 seconds.
-  path: Assets/Spirates/Modern_Office_Black_Shadow_32x32.png
-  artifactKey: Guid(4bc08b638ff26824cab2c8319834d872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Modern_Office_Black_Shadow_32x32.png using Guid(4bc08b638ff26824cab2c8319834d872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2edd5bb09d6901b8e449869896deca44') in 3.423169 seconds 
-  Import took 3.435841 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 948.073273 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_0.asset
-  artifactKey: Guid(20adb1319ba71524594d2e76870c2c0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_0.asset using Guid(20adb1319ba71524594d2e76870c2c0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c20ae9e2341811bd71420b4427389a5e') in 0.068367 seconds 
-  Import took 0.077835 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000477 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_20.asset
-  artifactKey: Guid(e870c7b88b8bff6418e8a19e7a36c808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_20.asset using Guid(e870c7b88b8bff6418e8a19e7a36c808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4a692c02fff3bc09df7dd87bcd2b56d') in 0.057204 seconds 
-  Import took 0.063334 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000396 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_4.asset
-  artifactKey: Guid(a9808ab94dfe4f642aa6687775743c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_4.asset using Guid(a9808ab94dfe4f642aa6687775743c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00d68e2bebb1fc567b95f85dc2d97e23') in 0.013469 seconds 
-  Import took 0.020914 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000371 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_19.asset
-  artifactKey: Guid(a965286424e83f041b87dd87d04f105c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_19.asset using Guid(a965286424e83f041b87dd87d04f105c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e958bb71f7df1ec2c121dd0e5680e1e') in 0.015913 seconds 
-  Import took 0.022170 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000429 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_5.asset
-  artifactKey: Guid(82bd1b2641ad845439e9d38118d562e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_5.asset using Guid(82bd1b2641ad845439e9d38118d562e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '241e8e1d8a88d09c874b24c93878257d') in 0.015958 seconds 
-  Import took 0.022790 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000365 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_24.asset
-  artifactKey: Guid(a36b91bd427a63041a216ee34867d628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_24.asset using Guid(a36b91bd427a63041a216ee34867d628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f58f18518336d35cd9e6c634f19fed44') in 0.013416 seconds 
-  Import took 0.019401 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000420 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_2.asset
-  artifactKey: Guid(57ddf2888cfb01249a50afe89fb69915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_2.asset using Guid(57ddf2888cfb01249a50afe89fb69915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '133567829ab19b9667b81975eba60804') in 0.012349 seconds 
-  Import took 0.017198 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000380 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_26.asset
-  artifactKey: Guid(71d56b357890d1847a16a0f5acf5278f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_26.asset using Guid(71d56b357890d1847a16a0f5acf5278f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aee658680b05454e2663101de588ae3') in 0.012586 seconds 
-  Import took 0.018487 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000375 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_10.asset
-  artifactKey: Guid(34db7de88012403468f57ad2ed850bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_10.asset using Guid(34db7de88012403468f57ad2ed850bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '721d1ca4c22a754245aaa8825474e539') in 0.019972 seconds 
-  Import took 0.028869 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000522 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_22.asset
-  artifactKey: Guid(6aeacd3da1bf69c439bb06d431b58f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_22.asset using Guid(6aeacd3da1bf69c439bb06d431b58f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc6a227b25e1525d8415ae8d0e03597d') in 0.017574 seconds 
-  Import took 0.026955 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000412 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_16.asset
-  artifactKey: Guid(d205f7c6cebaa6c4d8e533f53ff5dcec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_16.asset using Guid(d205f7c6cebaa6c4d8e533f53ff5dcec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d213206a0408ed01f49b6f3d5c5bba2') in 0.013640 seconds 
-  Import took 0.019643 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000406 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_6.asset
-  artifactKey: Guid(a0a4ecda1c7228e40a57952d9ed10992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_6.asset using Guid(a0a4ecda1c7228e40a57952d9ed10992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bb81b30bcbab207dc4f21fb08ddbbcc') in 0.011162 seconds 
-  Import took 0.016208 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000367 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_1.asset
-  artifactKey: Guid(e3f98cf799cb47045945ee5fe5398403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_1.asset using Guid(e3f98cf799cb47045945ee5fe5398403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a6cc886de973f936928295f55192204') in 0.012782 seconds 
-  Import took 0.018504 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000411 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_15.asset
-  artifactKey: Guid(38edc98947aed154aa87bd734a24d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_15.asset using Guid(38edc98947aed154aa87bd734a24d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8761175f6f9db416d82af299f8be5cc') in 0.012290 seconds 
-  Import took 0.018287 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000380 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_7.asset
-  artifactKey: Guid(9ba9a72df6a59e648801bf6c742af600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_7.asset using Guid(9ba9a72df6a59e648801bf6c742af600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c3441f761741b31bfbc4f586546ecff') in 0.012867 seconds 
-  Import took 0.018707 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000367 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_8.asset
-  artifactKey: Guid(1ccdd1e306db3a24292f9b59fb47b6c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_8.asset using Guid(1ccdd1e306db3a24292f9b59fb47b6c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31941a16cf1e2cace08bc23237a486a1') in 0.012275 seconds 
-  Import took 0.018451 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000403 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_18.asset
-  artifactKey: Guid(c8f8c5bf0278509408273472dbccdff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_18.asset using Guid(c8f8c5bf0278509408273472dbccdff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '182f442e405c2fa633fba58b355e15ee') in 0.010898 seconds 
-  Import took 0.015701 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000370 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_13.asset
-  artifactKey: Guid(4fb71e78dcff1bb43b7cf386869a75a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_13.asset using Guid(4fb71e78dcff1bb43b7cf386869a75a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68524c47ed2c94fbc2b87dcac83fac67') in 0.014125 seconds 
-  Import took 0.021863 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000540 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_12.asset
-  artifactKey: Guid(fcd42c88d6a7e3842a5f589f8ae2a88e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_12.asset using Guid(fcd42c88d6a7e3842a5f589f8ae2a88e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d07585a2ef5df9e441b91331bc83274') in 0.021927 seconds 
-  Import took 0.032307 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000382 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_3.asset
-  artifactKey: Guid(4a9afd732187fe74495f7d4056478e42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_3.asset using Guid(4a9afd732187fe74495f7d4056478e42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '217b84e93a992b1f184d0748b943e9b4') in 0.012274 seconds 
-  Import took 0.017555 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000384 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_17.asset
-  artifactKey: Guid(42f8fc06e9215cf40be7875b6a84e50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_17.asset using Guid(42f8fc06e9215cf40be7875b6a84e50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f87ee63916d06b68f9e35c5245e6aa4d') in 0.012561 seconds 
-  Import took 0.018342 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000380 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_9.asset
-  artifactKey: Guid(c7e1aaec3039b3c428d70161a9150d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_9.asset using Guid(c7e1aaec3039b3c428d70161a9150d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a29ce67725ebf53dab7cd9f8269f4ac8') in 0.012738 seconds 
-  Import took 0.018588 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000388 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_11.asset
-  artifactKey: Guid(c01b135b848714a4b90336ab8eb76b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_11.asset using Guid(c01b135b848714a4b90336ab8eb76b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e2000eeb4b93d311f8ec9307667b810') in 0.013817 seconds 
-  Import took 0.020055 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000375 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_14.asset
-  artifactKey: Guid(89b127d977edfd542ae5bd6b56fd7da3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_14.asset using Guid(89b127d977edfd542ae5bd6b56fd7da3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64f0bcdc949f6e1883bb7216a8c73adc') in 0.012335 seconds 
-  Import took 0.018177 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000366 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_21.asset
-  artifactKey: Guid(993b7346617b3fb4f8ef2d6a61b883a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_21.asset using Guid(993b7346617b3fb4f8ef2d6a61b883a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beb4eb9572df37640f2275bc996139b5') in 0.012473 seconds 
-  Import took 0.018714 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000385 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_23.asset
-  artifactKey: Guid(235ed723d3becb94eb62074d3de78939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_23.asset using Guid(235ed723d3becb94eb62074d3de78939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32b1dc19dad48b9230671f93289f2c6e') in 0.027383 seconds 
-  Import took 0.034713 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000481 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_25.asset
-  artifactKey: Guid(31961ae13b4d8854db89d3a264103b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_25.asset using Guid(31961ae13b4d8854db89d3a264103b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9199b48d6b6ae679dd003b8ef3bfb32') in 0.017173 seconds 
-  Import took 0.030268 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000542 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_11.asset
-  artifactKey: Guid(c01b135b848714a4b90336ab8eb76b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_11.asset using Guid(c01b135b848714a4b90336ab8eb76b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e2000eeb4b93d311f8ec9307667b810') in 0.011891 seconds 
-  Import took 0.019192 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.194274 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_27.asset
-  artifactKey: Guid(ae4cb45daa2bb414697d96983039b1f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_27.asset using Guid(ae4cb45daa2bb414697d96983039b1f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '988bd3af1d75b1d56f08f39cb538fa64') in 0.014108 seconds 
-  Import took 0.020569 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000407 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_28.asset
-  artifactKey: Guid(d2154d7616344a341b456df75cbdbabb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_28.asset using Guid(d2154d7616344a341b456df75cbdbabb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '107c00ad8db68fff0dbd4e204a31b716') in 0.013290 seconds 
-  Import took 0.019764 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000402 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_31.asset
-  artifactKey: Guid(ac9f07f3414015248b35988752c69d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_31.asset using Guid(ac9f07f3414015248b35988752c69d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4acac90fc62f3735d5f4255f09cb5a11') in 0.012633 seconds 
-  Import took 0.018621 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000413 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_33.asset
-  artifactKey: Guid(d6aa6f2f99252114f817a573d3d39494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_33.asset using Guid(d6aa6f2f99252114f817a573d3d39494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3dcd340288cc660963b4bfd565f6ece') in 0.012461 seconds 
-  Import took 0.017397 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000423 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_35.asset
-  artifactKey: Guid(5389420c9ba10a3449d3ef31e552afc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_35.asset using Guid(5389420c9ba10a3449d3ef31e552afc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '414382611216a2758cd6a9be998c6a30') in 0.011439 seconds 
-  Import took 0.016437 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000429 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_27.asset
-  artifactKey: Guid(ae4cb45daa2bb414697d96983039b1f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_27.asset using Guid(ae4cb45daa2bb414697d96983039b1f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '988bd3af1d75b1d56f08f39cb538fa64') in 0.010633 seconds 
-  Import took 0.015852 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002600 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_32.asset
-  artifactKey: Guid(57736d07cd03ba44b86ef05361dafaeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_32.asset using Guid(57736d07cd03ba44b86ef05361dafaeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f84c620e81fd93e2c0d44b4a2ed3def3') in 0.013486 seconds 
-  Import took 0.020817 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000382 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_34.asset
-  artifactKey: Guid(c11fd339d3afda748a1608a669301215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_34.asset using Guid(c11fd339d3afda748a1608a669301215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91802998daa90c844a5bdc818cc96cc5') in 0.012964 seconds 
-  Import took 0.019723 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000446 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_29.asset
-  artifactKey: Guid(0d5896571305cfe4b83dfcdbe53229f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_29.asset using Guid(0d5896571305cfe4b83dfcdbe53229f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b911677a3c9f418cd25d987894af776b') in 0.019888 seconds 
-  Import took 0.027955 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000392 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_30.asset
-  artifactKey: Guid(ffffac5d40fb8a64ab5692f067e2797e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_30.asset using Guid(ffffac5d40fb8a64ab5692f067e2797e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81db986c1697cb4442a74237498ad569') in 0.018083 seconds 
-  Import took 0.023845 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000453 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_28.asset
-  artifactKey: Guid(d2154d7616344a341b456df75cbdbabb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_28.asset using Guid(d2154d7616344a341b456df75cbdbabb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '107c00ad8db68fff0dbd4e204a31b716') in 0.010769 seconds 
-  Import took 0.016500 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.116770 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_30.asset
-  artifactKey: Guid(ffffac5d40fb8a64ab5692f067e2797e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_30.asset using Guid(ffffac5d40fb8a64ab5692f067e2797e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81db986c1697cb4442a74237498ad569') in 0.011629 seconds 
-  Import took 0.019127 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.273515 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_36.asset
-  artifactKey: Guid(27f6fe9e96558a64597cf1c530010ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_36.asset using Guid(27f6fe9e96558a64597cf1c530010ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3274a21a64c723cb0156f8b9512a37c') in 0.014294 seconds 
-  Import took 0.021344 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000424 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_53.asset
-  artifactKey: Guid(d1db8eef4443aec4dab3b7d53c54eee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_53.asset using Guid(d1db8eef4443aec4dab3b7d53c54eee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4678a5c4542d443b50f517561301b16b') in 0.012723 seconds 
-  Import took 0.017797 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000418 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_40.asset
-  artifactKey: Guid(dd8e05ff9588a3440bc85d73365dbb93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_40.asset using Guid(dd8e05ff9588a3440bc85d73365dbb93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d5226969b4720a969f5834239e5e29d') in 0.012453 seconds 
-  Import took 0.018393 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000441 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_47.asset
-  artifactKey: Guid(5f54a80a177acf84e9f983a6e0c63d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_47.asset using Guid(5f54a80a177acf84e9f983a6e0c63d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83ce491080e9bf7e9a3a6121850df629') in 0.011244 seconds 
-  Import took 0.016355 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000379 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_38.asset
-  artifactKey: Guid(b0043cb36f5254e458da96be9b65bfdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_38.asset using Guid(b0043cb36f5254e458da96be9b65bfdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45a6b137d643cc224b9cba19d5599579') in 0.010805 seconds 
-  Import took 0.016456 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000396 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_43.asset
-  artifactKey: Guid(b7fc829f26e20c94282255b81491f88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_43.asset using Guid(b7fc829f26e20c94282255b81491f88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcdda16afa0d96cdfa2a8c521c97aba1') in 0.012359 seconds 
-  Import took 0.019458 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000359 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_39.asset
-  artifactKey: Guid(dbbf75209b9732b45a243fcdb017a68b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_39.asset using Guid(dbbf75209b9732b45a243fcdb017a68b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18a28e314182e6c7ea394e5c3640e86a') in 0.012436 seconds 
-  Import took 0.018236 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000574 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_52.asset
-  artifactKey: Guid(9335acfb4301d8d4e904a922cc98628f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_52.asset using Guid(9335acfb4301d8d4e904a922cc98628f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25aea87e2a63cf23cd815336415ffff7') in 0.011322 seconds 
-  Import took 0.016269 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000368 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_44.asset
-  artifactKey: Guid(1cc26443bb70be24fa19c2b11151694a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_44.asset using Guid(1cc26443bb70be24fa19c2b11151694a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '388dc6250e8607336359be4516a89c73') in 0.021054 seconds 
-  Import took 0.028931 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000393 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_49.asset
-  artifactKey: Guid(1d5c6c2b8c1005f4ba56c7988b7c6bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_49.asset using Guid(1d5c6c2b8c1005f4ba56c7988b7c6bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '362acdb2c441f71b5e9ead66214b97cd') in 0.018261 seconds 
-  Import took 0.025043 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000444 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_58.asset
-  artifactKey: Guid(d42508f5135b99a4db8b5f73c217f54b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_58.asset using Guid(d42508f5135b99a4db8b5f73c217f54b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a5a33828a9ad3a249da9d033e073b65') in 0.013343 seconds 
-  Import took 0.019937 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000376 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_63.asset
-  artifactKey: Guid(c40d2ec4fe138b54ea4e15789bd39e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_63.asset using Guid(c40d2ec4fe138b54ea4e15789bd39e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f72ae208ec4df34de661de3752fb8327') in 0.010874 seconds 
-  Import took 0.015845 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000378 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_68.asset
-  artifactKey: Guid(e46a82e94b199ad41b37a159524ade40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_68.asset using Guid(e46a82e94b199ad41b37a159524ade40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f98ffd569fd90f88b07cbd621fec74ec') in 0.012606 seconds 
-  Import took 0.018536 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000392 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_61.asset
-  artifactKey: Guid(7dd07860bef7d5340814fceb36c3989b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_61.asset using Guid(7dd07860bef7d5340814fceb36c3989b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a4a564ab0f73cba08c93bf9a638b7b8') in 0.011374 seconds 
-  Import took 0.016177 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000368 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_55.asset
-  artifactKey: Guid(1c87a3ce255112b42b58c24a4e8718d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_55.asset using Guid(1c87a3ce255112b42b58c24a4e8718d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61abd3ce490db618e1016805f897964f') in 0.011147 seconds 
-  Import took 0.016000 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000384 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_65.asset
-  artifactKey: Guid(69b6bc6fb5bfd964996901087d59d235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_65.asset using Guid(69b6bc6fb5bfd964996901087d59d235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5500f6ab99d1d5f66d2f1c272f7f0c44') in 0.010720 seconds 
-  Import took 0.016255 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000379 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_69.asset
-  artifactKey: Guid(3f8fc7beea444e64fb3eb33a74df6cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_69.asset using Guid(3f8fc7beea444e64fb3eb33a74df6cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15cc23409ad8a7306236d7b8285e8590') in 0.013061 seconds 
-  Import took 0.019119 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000424 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_59.asset
-  artifactKey: Guid(4181452caa1863e4dbcbcae02d517aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_59.asset using Guid(4181452caa1863e4dbcbcae02d517aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0fc2caa80644a1bcd57635c5405da63') in 0.018681 seconds 
-  Import took 0.026950 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001058 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_41.asset
-  artifactKey: Guid(5d3e594f3cffb04489402cb10dd62519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_41.asset using Guid(5d3e594f3cffb04489402cb10dd62519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ac8ede913720a510328d90ee80eeb9f') in 0.015503 seconds 
-  Import took 0.023996 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000380 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_37.asset
-  artifactKey: Guid(7ed432dcd48089e4080b93bf47a37a23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_37.asset using Guid(7ed432dcd48089e4080b93bf47a37a23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c916e993ebd21816999fe5ad76bfec69') in 0.012676 seconds 
-  Import took 0.017549 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000368 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_67.asset
-  artifactKey: Guid(dc9021ab0b1396f4f9e004baa76e98a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_67.asset using Guid(dc9021ab0b1396f4f9e004baa76e98a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81a9c7384e5ae2ca02f56431c4ddb55f') in 0.011183 seconds 
-  Import took 0.016087 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000373 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_42.asset
-  artifactKey: Guid(61089d2e079edea4f809c5bbbe73617c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_42.asset using Guid(61089d2e079edea4f809c5bbbe73617c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccaa4e18f9066eb2ebbc42ec3952974f') in 0.012082 seconds 
-  Import took 0.018013 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000372 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_45.asset
-  artifactKey: Guid(d4e40783f862f504a8318271f00455f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_45.asset using Guid(d4e40783f862f504a8318271f00455f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fe74d145993ff98185922de0055d8fb') in 0.011354 seconds 
-  Import took 0.017511 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000367 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_51.asset
-  artifactKey: Guid(7d60dc2536a72034ebf2e5d0bd8415e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_51.asset using Guid(7d60dc2536a72034ebf2e5d0bd8415e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b80b3b60491f01993c75ab1af2a1adc') in 0.012522 seconds 
-  Import took 0.018639 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000403 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_62.asset
-  artifactKey: Guid(9e46c954d213d6c4088e1b0a6e7aa1d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_62.asset using Guid(9e46c954d213d6c4088e1b0a6e7aa1d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fa29f2f2ea40d30836c2ea9ee434619') in 0.010804 seconds 
-  Import took 0.016765 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000394 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_70.asset
-  artifactKey: Guid(ff0437945731d9d41a901e651df05906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_70.asset using Guid(ff0437945731d9d41a901e651df05906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b42f2a1dad8c6709382a7345dac670a') in 0.016897 seconds 
-  Import took 0.023240 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000397 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_46.asset
-  artifactKey: Guid(7f706c2e620afba45ab1cc4607224a33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_46.asset using Guid(7f706c2e620afba45ab1cc4607224a33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '113e067d77b35cd633ad44f50671a4cf') in 0.017521 seconds 
-  Import took 0.024790 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000468 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_41.asset
-  artifactKey: Guid(5d3e594f3cffb04489402cb10dd62519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_41.asset using Guid(5d3e594f3cffb04489402cb10dd62519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ac8ede913720a510328d90ee80eeb9f') in 0.012651 seconds 
-  Import took 0.021745 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000389 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_50.asset
-  artifactKey: Guid(b53764940ad3f3845aee5b2e267151bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_50.asset using Guid(b53764940ad3f3845aee5b2e267151bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0991e214712f4fb27f5e10c629f18fb') in 0.010959 seconds 
-  Import took 0.015818 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000407 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_60.asset
-  artifactKey: Guid(716904a6ce7cf2741ae18974fbfb87d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_60.asset using Guid(716904a6ce7cf2741ae18974fbfb87d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9964dcaa08401fe954123dae3f849fe7') in 0.012979 seconds 
-  Import took 0.018461 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000373 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_57.asset
-  artifactKey: Guid(7d44d113c94d0434481048e54d54a817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_57.asset using Guid(7d44d113c94d0434481048e54d54a817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea6290ed85b3665c68a4b725e54614ff') in 0.012676 seconds 
-  Import took 0.017566 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000378 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_66.asset
-  artifactKey: Guid(fef98108a5283d04cafc3f016501c0d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_66.asset using Guid(fef98108a5283d04cafc3f016501c0d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db116e276721e73820a689e62ac93289') in 0.011505 seconds 
-  Import took 0.016401 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000366 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_48.asset
-  artifactKey: Guid(d1d94693217248f4482bd371f31c24b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_48.asset using Guid(d1d94693217248f4482bd371f31c24b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23576e059109a7f30fcf48ade06a3bc3') in 0.013132 seconds 
-  Import took 0.019034 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000388 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_56.asset
-  artifactKey: Guid(f71be472e44400d4aa0d66ee1bfbc040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_56.asset using Guid(f71be472e44400d4aa0d66ee1bfbc040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4416bb551f9ea3fd5a7f3116e2d7809d') in 0.011347 seconds 
-  Import took 0.016224 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000364 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_71.asset
-  artifactKey: Guid(5ccad23ebd274d948971d877a22d665c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_71.asset using Guid(5ccad23ebd274d948971d877a22d665c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2d4f2454c523beddaeced2e76a99df4') in 0.017621 seconds 
-  Import took 0.025723 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000442 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_64.asset
-  artifactKey: Guid(68b7c90f8538b4b4886bc33fd3b78611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_64.asset using Guid(68b7c90f8538b4b4886bc33fd3b78611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e764175716447134a80c5614a436b42') in 0.020421 seconds 
-  Import took 0.029583 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000396 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_54.asset
-  artifactKey: Guid(13cfacfbcc0350347bfef82b18835a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_54.asset using Guid(13cfacfbcc0350347bfef82b18835a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fab3d93931998746180334a3fc7caf8f') in 0.012119 seconds 
-  Import took 0.017074 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.123981 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_64.asset
-  artifactKey: Guid(68b7c90f8538b4b4886bc33fd3b78611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_64.asset using Guid(68b7c90f8538b4b4886bc33fd3b78611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e764175716447134a80c5614a436b42') in 0.013596 seconds 
-  Import took 0.019762 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.405943 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_72.asset
-  artifactKey: Guid(49a36375eef11f84196db1ff41b813ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_72.asset using Guid(49a36375eef11f84196db1ff41b813ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b45b6cde42e3d7ea265da1d683cf6cfc') in 0.014047 seconds 
-  Import took 0.020660 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000510 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_79.asset
-  artifactKey: Guid(e96ed71effd995446bcf9b54e4a531cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_79.asset using Guid(e96ed71effd995446bcf9b54e4a531cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c548047018188255a8c91d01be579586') in 0.012656 seconds 
-  Import took 0.017847 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000408 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_77.asset
-  artifactKey: Guid(e2f3243b581ff704eab80c568fe336d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_77.asset using Guid(e2f3243b581ff704eab80c568fe336d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04791ab2ad25ebdb6a32859977d3d7fc') in 0.012124 seconds 
-  Import took 0.017018 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000419 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_76.asset
-  artifactKey: Guid(4e3b8d4671b14db4e8e08e38c6243c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_76.asset using Guid(4e3b8d4671b14db4e8e08e38c6243c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44e405ffcd7d13c1c9ce95bdf804f63a') in 0.013798 seconds 
-  Import took 0.019208 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000423 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_78.asset
-  artifactKey: Guid(1346a0a8b48d5454eaa2cc80ae181ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_78.asset using Guid(1346a0a8b48d5454eaa2cc80ae181ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49f2a93aa4215eaca81551e36e200964') in 0.011214 seconds 
-  Import took 0.016222 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000416 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_80.asset
-  artifactKey: Guid(d54b8cf6a1ec7594ba9fb3147ec8269e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_80.asset using Guid(d54b8cf6a1ec7594ba9fb3147ec8269e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f90c849b8d4924c558da80280994ded7') in 0.011048 seconds 
-  Import took 0.015978 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000408 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_73.asset
-  artifactKey: Guid(c4188a0df0e021347b86e7334d120c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_73.asset using Guid(c4188a0df0e021347b86e7334d120c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '474d2a77c92184c90121946e96c52765') in 0.011993 seconds 
-  Import took 0.016852 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000446 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_74.asset
-  artifactKey: Guid(07089f98df1eb124dabddddb2d3b384f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_74.asset using Guid(07089f98df1eb124dabddddb2d3b384f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8080e3192f49d30240f3aa2c6d871c48') in 0.010985 seconds 
-  Import took 0.016221 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000403 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_75.asset
-  artifactKey: Guid(c516584013b81584eb920c8e2b14c667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_75.asset using Guid(c516584013b81584eb920c8e2b14c667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '656de3924cbaba365145e94ba1cabd6b') in 0.018457 seconds 
-  Import took 0.026343 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.017273 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_81.asset
-  artifactKey: Guid(7d1844e9f30a33b46b06e5edd52fa21c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_81.asset using Guid(7d1844e9f30a33b46b06e5edd52fa21c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4fdc37d824b58fbb1409d9fb785c2a2') in 0.015373 seconds 
-  Import took 0.021264 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000377 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_87.asset
-  artifactKey: Guid(d73be51911202b44e88c8343067a3dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_87.asset using Guid(d73be51911202b44e88c8343067a3dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6ad1460d1841dfa7633402237fadf4b') in 0.011490 seconds 
-  Import took 0.016478 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000374 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_84.asset
-  artifactKey: Guid(c349d5ffe37fe0b4a8da77163c0fce8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_84.asset using Guid(c349d5ffe37fe0b4a8da77163c0fce8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34c0acc1d7d47dfb444595edc5bef5f4') in 0.011647 seconds 
-  Import took 0.017685 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000389 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_82.asset
-  artifactKey: Guid(ff7634e9af0bd0642b24820fd82a9247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_82.asset using Guid(ff7634e9af0bd0642b24820fd82a9247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fca430d87c116254857cb17c661bfe9') in 0.011329 seconds 
-  Import took 0.017176 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000372 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_85.asset
-  artifactKey: Guid(dcb069c871e49e84590e29828eb0795a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_85.asset using Guid(dcb069c871e49e84590e29828eb0795a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd524eb130b9a13e8d69630c3e2a21bee') in 0.012243 seconds 
-  Import took 0.017102 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000368 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_86.asset
-  artifactKey: Guid(f430728001d832d4f90371b469f6d951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_86.asset using Guid(f430728001d832d4f90371b469f6d951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2c5e9d754a777af258d91aff417f799') in 0.011395 seconds 
-  Import took 0.016330 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000375 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_89.asset
-  artifactKey: Guid(3bf17c2cecfb00d4aa9fa15ac2e19710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_89.asset using Guid(3bf17c2cecfb00d4aa9fa15ac2e19710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5ca57d54923db6e02fde86ea30e941a') in 0.012231 seconds 
-  Import took 0.018087 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000405 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_83.asset
-  artifactKey: Guid(208583ae638dcf749b2de5175fd4380a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_83.asset using Guid(208583ae638dcf749b2de5175fd4380a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '498c5c914606af6f41a251ddf130a835') in 0.012062 seconds 
-  Import took 0.018820 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000651 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_88.asset
-  artifactKey: Guid(e8a0e7d04cbdf9040a61de3e5319f71d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_88.asset using Guid(e8a0e7d04cbdf9040a61de3e5319f71d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de3b667d1fd7665b77d24ac69019a1d7') in 0.016441 seconds 
-  Import took 0.024852 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.004944 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_82.asset
-  artifactKey: Guid(ff7634e9af0bd0642b24820fd82a9247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_82.asset using Guid(ff7634e9af0bd0642b24820fd82a9247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fca430d87c116254857cb17c661bfe9') in 0.012696 seconds 
-  Import took 0.020503 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000369 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_94.asset
-  artifactKey: Guid(0525c33c9e77ba8429c5732d7c3be1ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_94.asset using Guid(0525c33c9e77ba8429c5732d7c3be1ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d0ccf64c76827ae87c7414cb829289a') in 0.012299 seconds 
-  Import took 0.018282 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000365 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_96.asset
-  artifactKey: Guid(605e22c9a136bd1468d31b0186b62bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_96.asset using Guid(605e22c9a136bd1468d31b0186b62bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81acffbe210a3328ade984635ccd777c') in 0.012687 seconds 
-  Import took 0.018529 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000370 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_95.asset
-  artifactKey: Guid(60645acb8aa618140adbee72681b38e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_95.asset using Guid(60645acb8aa618140adbee72681b38e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eb6f8dc69a9b75336ae1f2a152c41cd') in 0.012783 seconds 
-  Import took 0.018632 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000374 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_92.asset
-  artifactKey: Guid(10c51902f0991bf4f9ec95955999a414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_92.asset using Guid(10c51902f0991bf4f9ec95955999a414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3e0a485787e2396c7445d5b932fef75') in 0.012399 seconds 
-  Import took 0.018358 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000392 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_97.asset
-  artifactKey: Guid(aa1d5e269b0a27343a288d2dcd122915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_97.asset using Guid(aa1d5e269b0a27343a288d2dcd122915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5445aec314ca154873c59d01b362ff9c') in 0.012249 seconds 
-  Import took 0.018851 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000395 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_98.asset
-  artifactKey: Guid(b295fb7c4ae531544bdd55c659fb31d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_98.asset using Guid(b295fb7c4ae531544bdd55c659fb31d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '086a7131cf86478a2d8e826ea00b38e2') in 0.011435 seconds 
-  Import took 0.017319 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000373 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_91.asset
-  artifactKey: Guid(e0f28fa09b3b5e14380debebf261a3eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_91.asset using Guid(e0f28fa09b3b5e14380debebf261a3eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08fb321421b73c5d6d8f8983d9fe7ee4') in 0.012397 seconds 
-  Import took 0.019170 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000411 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_93.asset
-  artifactKey: Guid(a98eccd384c49ac41bbd9dae9562da99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_93.asset using Guid(a98eccd384c49ac41bbd9dae9562da99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '945ed4cb69b83905e729a324b616e5eb') in 0.019321 seconds 
-  Import took 0.029832 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000530 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_90.asset
-  artifactKey: Guid(67af35714ef98294582eecb2dc026433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_90.asset using Guid(67af35714ef98294582eecb2dc026433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c31fc854b2e5567239e4fc80fe927fab') in 0.015113 seconds 
-  Import took 0.023838 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.260844 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_99.asset
-  artifactKey: Guid(af389f146caa7a24a839cc74ed577684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_99.asset using Guid(af389f146caa7a24a839cc74ed577684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc37ca8c02dd200a93fb40178983ba5d') in 0.014119 seconds 
-  Import took 0.021000 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000593 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_100.asset
-  artifactKey: Guid(a78413b0b7782a743be16614fbcabb7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_100.asset using Guid(a78413b0b7782a743be16614fbcabb7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8af7d385a8ca79090396bc19e3468235') in 0.013814 seconds 
-  Import took 0.021191 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000909 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_115.asset
-  artifactKey: Guid(04573aaba0f21584fb0f33448ac68b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_115.asset using Guid(04573aaba0f21584fb0f33448ac68b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cd6f099666a9ca8f4e3439cd19728ab') in 0.012396 seconds 
-  Import took 0.018551 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000528 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_105.asset
-  artifactKey: Guid(1788efea7d87bb0469b5c651306faa73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_105.asset using Guid(1788efea7d87bb0469b5c651306faa73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e36b4807385caacfea6afd78d1ae585') in 0.012939 seconds 
-  Import took 0.017989 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000409 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_112.asset
-  artifactKey: Guid(f1f19dc7bad46d245a8360e1383a2800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_112.asset using Guid(f1f19dc7bad46d245a8360e1383a2800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35713ddf6aea47393d614ff706c55e3e') in 0.013900 seconds 
-  Import took 0.019651 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000360 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_113.asset
-  artifactKey: Guid(550653255bb0ebe498a95724bcf3cb5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_113.asset using Guid(550653255bb0ebe498a95724bcf3cb5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f16ebc9ca7fd87faf9f4d058b013bc2') in 0.012551 seconds 
-  Import took 0.019535 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000364 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_118.asset
-  artifactKey: Guid(9753ed7659ccc3842bd71b7dfbcffa3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_118.asset using Guid(9753ed7659ccc3842bd71b7dfbcffa3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85197f13b000a006460de87916e29143') in 0.013142 seconds 
-  Import took 0.018952 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000378 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_119.asset
-  artifactKey: Guid(57f60a05babd87f4899b7a90890a287a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_119.asset using Guid(57f60a05babd87f4899b7a90890a287a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28455021a9c5b1fec7223612025bb543') in 0.011346 seconds 
-  Import took 0.017178 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000379 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_99.asset
-  artifactKey: Guid(af389f146caa7a24a839cc74ed577684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_99.asset using Guid(af389f146caa7a24a839cc74ed577684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc37ca8c02dd200a93fb40178983ba5d') in 0.011209 seconds 
-  Import took 0.017283 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000383 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_110.asset
-  artifactKey: Guid(bb765e67e9f0a11409b2728b1407710b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_110.asset using Guid(bb765e67e9f0a11409b2728b1407710b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '146d4f4433a3e038f6e635b3f2515f3f') in 0.021662 seconds 
-  Import took 0.028637 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000416 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_122.asset
-  artifactKey: Guid(7f5ce4d81f582d24eb9e653c17ff4fe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_122.asset using Guid(7f5ce4d81f582d24eb9e653c17ff4fe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e22b09f74cdfd71a065fe37d4a8914b6') in 0.018137 seconds 
-  Import took 0.023894 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000400 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_100.asset
-  artifactKey: Guid(a78413b0b7782a743be16614fbcabb7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_100.asset using Guid(a78413b0b7782a743be16614fbcabb7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8af7d385a8ca79090396bc19e3468235') in 0.011879 seconds 
-  Import took 0.017646 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000418 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_108.asset
-  artifactKey: Guid(52f4029e65b07824390df482e2d4ab6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_108.asset using Guid(52f4029e65b07824390df482e2d4ab6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d0153c7aaaf72f8ef500079132d1441') in 0.012254 seconds 
-  Import took 0.017978 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000390 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_102.asset
-  artifactKey: Guid(260daf5046304a04b87c2a994e6c548c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_102.asset using Guid(260daf5046304a04b87c2a994e6c548c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '729def4404db3b93ad0ec542e6a5d75b') in 0.013235 seconds 
-  Import took 0.019037 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000372 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_121.asset
-  artifactKey: Guid(206513173e50b024f8c4c960ab55584f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_121.asset using Guid(206513173e50b024f8c4c960ab55584f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cc93468afff9115f3ac6051b50f9e12') in 0.012552 seconds 
-  Import took 0.018683 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000387 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_117.asset
-  artifactKey: Guid(0cce87b827c7cf643aa470fdbdf48f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_117.asset using Guid(0cce87b827c7cf643aa470fdbdf48f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89c6d9228cb691ce20e8f082cdf3b42d') in 0.010794 seconds 
-  Import took 0.016278 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000393 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_101.asset
-  artifactKey: Guid(d6e2cc1aa85740946aaebd8f123a7163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_101.asset using Guid(d6e2cc1aa85740946aaebd8f123a7163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d068b30c0e4a9332c8697ced3711f51') in 0.011727 seconds 
-  Import took 0.016822 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000425 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_104.asset
-  artifactKey: Guid(bdb7656c6601068419a15731c8b71ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_104.asset using Guid(bdb7656c6601068419a15731c8b71ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8349446f714226bffc17aa0fb942dad') in 0.013643 seconds 
-  Import took 0.023213 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000574 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_103.asset
-  artifactKey: Guid(79c0e287317acdb4c94ea5c9f9abb6db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_103.asset using Guid(79c0e287317acdb4c94ea5c9f9abb6db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf4783f6bb3d6944d1551e92f17e17a4') in 0.017743 seconds 
-  Import took 0.025817 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000571 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_101.asset
-  artifactKey: Guid(d6e2cc1aa85740946aaebd8f123a7163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_101.asset using Guid(d6e2cc1aa85740946aaebd8f123a7163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d068b30c0e4a9332c8697ced3711f51') in 0.011141 seconds 
-  Import took 0.018757 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000408 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_124.asset
-  artifactKey: Guid(3e7db6c4f1407d0468b1b263bf36ec6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_124.asset using Guid(3e7db6c4f1407d0468b1b263bf36ec6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f621c6948f99c34657ac04ebef5be4a') in 0.011792 seconds 
-  Import took 0.017523 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000406 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_106.asset
-  artifactKey: Guid(4b01b113f76c8a24cb0a66b29dc41069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_106.asset using Guid(4b01b113f76c8a24cb0a66b29dc41069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f40fec2c909b66f89c1859f18e52cc74') in 0.011475 seconds 
-  Import took 0.016452 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000347 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_114.asset
-  artifactKey: Guid(55bb4ee6dcac11a409ecc6b1e020c865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_114.asset using Guid(55bb4ee6dcac11a409ecc6b1e020c865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96c64e3152e3bed1f8892e6fc5adbdb1') in 0.012850 seconds 
-  Import took 0.019215 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000375 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_120.asset
-  artifactKey: Guid(c72c21e9a3951f744a7c73766512269f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_120.asset using Guid(c72c21e9a3951f744a7c73766512269f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27e03ac8bc8483ba4e456a93f41aa810') in 0.011310 seconds 
-  Import took 0.016536 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000364 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_125.asset
-  artifactKey: Guid(900310b8131d20f4a9a3d0db767b6ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_125.asset using Guid(900310b8131d20f4a9a3d0db767b6ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5be53f2b44a894ae7224c0fd8e7ba4ac') in 0.012625 seconds 
-  Import took 0.018782 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000387 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_107.asset
-  artifactKey: Guid(5c1f13abc567f9b4f80416c02c4a8c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_107.asset using Guid(5c1f13abc567f9b4f80416c02c4a8c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1a7ded851982d0aaca5c246647cdddd') in 0.011987 seconds 
-  Import took 0.018427 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000755 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_116.asset
-  artifactKey: Guid(81e92b73b17485e44b6846162fd35a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_116.asset using Guid(81e92b73b17485e44b6846162fd35a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a00f8b8dd206228c8e27780bddf408e9') in 0.017175 seconds 
-  Import took 0.027633 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000636 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_123.asset
-  artifactKey: Guid(fc416767b62c5c74c875b02790ab7da9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_123.asset using Guid(fc416767b62c5c74c875b02790ab7da9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bcc5ae12792b12c0ebe22825a48acbc') in 0.014546 seconds 
-  Import took 0.021568 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000344 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_109.asset
-  artifactKey: Guid(b1e4cd551c54ad241bccb903ed31669f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_109.asset using Guid(b1e4cd551c54ad241bccb903ed31669f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a5db18ff63e049204059a93685f097f') in 0.011836 seconds 
-  Import took 0.017859 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000376 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_111.asset
-  artifactKey: Guid(f95d8f3d614a49640a9041f190eeedb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_111.asset using Guid(f95d8f3d614a49640a9041f190eeedb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49b0d37b77d5b4f71ee95a029eefafd4') in 0.011660 seconds 
-  Import took 0.017245 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.109487 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_111.asset
-  artifactKey: Guid(f95d8f3d614a49640a9041f190eeedb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_111.asset using Guid(f95d8f3d614a49640a9041f190eeedb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49b0d37b77d5b4f71ee95a029eefafd4') in 0.013797 seconds 
-  Import took 0.021626 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000376 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_130.asset
-  artifactKey: Guid(dede1af2bf6d5f04cbd4e1c8916c2c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_130.asset using Guid(dede1af2bf6d5f04cbd4e1c8916c2c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '607e09cb87e5ee7d7b26ea43017231b7') in 0.014637 seconds 
-  Import took 0.022132 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000455 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_134.asset
-  artifactKey: Guid(8c916422bd03f48478a37f3ae8fac3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_134.asset using Guid(8c916422bd03f48478a37f3ae8fac3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27619c05c88ed59cdcbcbe8c3df4adc5') in 0.011130 seconds 
-  Import took 0.016514 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000454 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_132.asset
-  artifactKey: Guid(df5fab04527a4004293229d52962e726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_132.asset using Guid(df5fab04527a4004293229d52962e726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe2a3adf945a18c4dd1ac57fa7d4a799') in 0.011072 seconds 
-  Import took 0.016178 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000454 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_129.asset
-  artifactKey: Guid(4a251fc457f801d4e8349b30fb277808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_129.asset using Guid(4a251fc457f801d4e8349b30fb277808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaa790157550b4a1e8ebf203a59fea07') in 0.011379 seconds 
-  Import took 0.017611 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000486 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_131.asset
-  artifactKey: Guid(b60e9a1cb4f4c9f4e85e75bf0ded30d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_131.asset using Guid(b60e9a1cb4f4c9f4e85e75bf0ded30d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dbe0ede258385dce0998e98d82fa0ca') in 0.013290 seconds 
-  Import took 0.020145 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000362 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_128.asset
-  artifactKey: Guid(7583104109894924ebfa7ee22474a18c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_128.asset using Guid(7583104109894924ebfa7ee22474a18c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2137e182012b42c504546c7a9442527f') in 0.012332 seconds 
-  Import took 0.018406 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000375 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_126.asset
-  artifactKey: Guid(2693031878027a7459ea3ed95e4ef6da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_126.asset using Guid(2693031878027a7459ea3ed95e4ef6da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '221f3ac487231e76064cd80ff0b5db6d') in 0.011251 seconds 
-  Import took 0.017011 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000405 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_127.asset
-  artifactKey: Guid(c1bc48f36d4c35d4684fff9f12581b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_127.asset using Guid(c1bc48f36d4c35d4684fff9f12581b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caac9290bbd5f7f49b35cbf0f66357d7') in 0.022229 seconds 
-  Import took 0.027744 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000470 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_133.asset
-  artifactKey: Guid(1274cc3636d298f4780e4e31ecc5cebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_133.asset using Guid(1274cc3636d298f4780e4e31ecc5cebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03289abf82e326406c67944f89ff8a02') in 0.017099 seconds 
-  Import took 0.023857 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000405 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_146.asset
-  artifactKey: Guid(15ad983d2ab18cb4cb0605e0ea9a09ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_146.asset using Guid(15ad983d2ab18cb4cb0605e0ea9a09ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08cecc5b5bc9bd07c63874e05cdf0db8') in 0.012514 seconds 
-  Import took 0.019303 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000378 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_147.asset
-  artifactKey: Guid(0d09f865df1262e43b4814258e1dfda1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_147.asset using Guid(0d09f865df1262e43b4814258e1dfda1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f89f351d65f9d1c5d898bbb7be04bd65') in 0.010905 seconds 
-  Import took 0.015748 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000444 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_136.asset
-  artifactKey: Guid(1dc390df68baae94888c878b08565228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_136.asset using Guid(1dc390df68baae94888c878b08565228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a70c94404b4abc5555d59f0d74fab152') in 0.011788 seconds 
-  Import took 0.016643 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000388 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_139.asset
-  artifactKey: Guid(118895cb94386204b86c0407dacfaa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_139.asset using Guid(118895cb94386204b86c0407dacfaa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ff5cf07f3493fe16cc05c64ffb46064') in 0.013142 seconds 
-  Import took 0.020071 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000426 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_138.asset
-  artifactKey: Guid(31e77f27186cfd84caa3ed566c957b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_138.asset using Guid(31e77f27186cfd84caa3ed566c957b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7accb67bec7986d92aa17cd555ca20cc') in 0.011681 seconds 
-  Import took 0.017378 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000385 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_142.asset
-  artifactKey: Guid(9b5a323751c29cb44ba5af45ec11e502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_142.asset using Guid(9b5a323751c29cb44ba5af45ec11e502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e91682a912e97f1c1f98052417014e8') in 0.010851 seconds 
-  Import took 0.016082 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000388 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_145.asset
-  artifactKey: Guid(afe00af96496d5d488ff6fb1195bd6e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_145.asset using Guid(afe00af96496d5d488ff6fb1195bd6e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc9148343dd489ae2e602db0620e5bf6') in 0.012636 seconds 
-  Import took 0.019526 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000398 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_151.asset
-  artifactKey: Guid(f23f28b8240a8bc4a8b41ea7c85c669e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_151.asset using Guid(f23f28b8240a8bc4a8b41ea7c85c669e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6637f4a7271e22efb8ae25a31b3c6e51') in 0.020726 seconds 
-  Import took 0.028457 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000396 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_135.asset
-  artifactKey: Guid(56d548c3ae859e84498369c0b7fdf317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_135.asset using Guid(56d548c3ae859e84498369c0b7fdf317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '524df6819167021e0794415a129f8a5a') in 0.018486 seconds 
-  Import took 0.025438 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000369 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_141.asset
-  artifactKey: Guid(29117f249d31f664f822c306f03b3d7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_141.asset using Guid(29117f249d31f664f822c306f03b3d7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '524b5d91d3fbe46f465ded3848a40c1d') in 0.010945 seconds 
-  Import took 0.017345 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000379 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_126.asset
-  artifactKey: Guid(2693031878027a7459ea3ed95e4ef6da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_126.asset using Guid(2693031878027a7459ea3ed95e4ef6da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '221f3ac487231e76064cd80ff0b5db6d') in 0.011067 seconds 
-  Import took 0.017078 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000368 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_143.asset
-  artifactKey: Guid(072beebd5df1ebd47a31556792c8dbaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_143.asset using Guid(072beebd5df1ebd47a31556792c8dbaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3399991a8dfc9883feffa0679a28f40') in 0.014006 seconds 
-  Import took 0.019851 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000371 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_149.asset
-  artifactKey: Guid(4fff10a0a7a6d6f41bcf0d74287edb7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_149.asset using Guid(4fff10a0a7a6d6f41bcf0d74287edb7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '981928137d5c01346d52b01eb7606e89') in 0.012005 seconds 
-  Import took 0.016930 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000361 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_140.asset
-  artifactKey: Guid(7625f60706cd660478b596364424065c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_140.asset using Guid(7625f60706cd660478b596364424065c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c87811a2282889056ae580cf6eb200fc') in 0.011202 seconds 
-  Import took 0.016022 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000383 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_144.asset
-  artifactKey: Guid(0739c001632c1d64e9903fce5ba7f692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_144.asset using Guid(0739c001632c1d64e9903fce5ba7f692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08f9648754c08befcff55da0b2548532') in 0.011015 seconds 
-  Import took 0.017429 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000406 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_150.asset
-  artifactKey: Guid(249f47bb1603bb44093084728c5c3df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_150.asset using Guid(249f47bb1603bb44093084728c5c3df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffb3e9ab23ba80f3cb2580ca96b9f83f') in 0.011575 seconds 
-  Import took 0.020712 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000529 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_152.asset
-  artifactKey: Guid(96de3406e82c5ae4485edf11331daff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_152.asset using Guid(96de3406e82c5ae4485edf11331daff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7591346f19183c5ad51d5e03a36a525') in 0.016310 seconds 
-  Import took 0.025150 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000487 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_137.asset
-  artifactKey: Guid(75f0180c99a03bb4d8a17562381511d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_137.asset using Guid(75f0180c99a03bb4d8a17562381511d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef56fbd4e75103deea6dfd0e9619f604') in 0.015128 seconds 
-  Import took 0.021810 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000411 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_148.asset
-  artifactKey: Guid(ffd93346dc9aa2e4f963e0d964dfd150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_148.asset using Guid(ffd93346dc9aa2e4f963e0d964dfd150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2372ea362fde976e113d21d44151b753') in 0.012273 seconds 
-  Import took 0.017134 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.113431 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_148.asset
-  artifactKey: Guid(ffd93346dc9aa2e4f963e0d964dfd150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_148.asset using Guid(ffd93346dc9aa2e4f963e0d964dfd150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2372ea362fde976e113d21d44151b753') in 0.011005 seconds 
-  Import took 0.016719 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.625362 seconds.
-  path: Assets/Tiles/Bedroom-Level1.prefab
-  artifactKey: Guid(70b74edd068d9db4f84bebf37121bdaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Bedroom-Level1.prefab using Guid(70b74edd068d9db4f84bebf37121bdaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '849f3b18d03f0d9593d3f3f92612d36a') in 0.139328 seconds 
-  Import took 0.148015 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 179.603114 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_153.asset
-  artifactKey: Guid(a5e8b60081e51ac40b40c50b982d58e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_153.asset using Guid(a5e8b60081e51ac40b40c50b982d58e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1315d364820fe22d70254bd80eb88f87') in 0.018368 seconds 
-  Import took 0.026152 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000457 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_154.asset
-  artifactKey: Guid(2fa3042564c64ec40b88ac98b4d88f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_154.asset using Guid(2fa3042564c64ec40b88ac98b4d88f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8054de7864960769ed7a6fd38ae792cc') in 0.012819 seconds 
-  Import took 0.018597 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000633 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_156.asset
-  artifactKey: Guid(bff022d57b86d884c848b2d2f4232550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_156.asset using Guid(bff022d57b86d884c848b2d2f4232550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b78b782020c213f6610c1907e2165a5d') in 0.011987 seconds 
-  Import took 0.018439 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000418 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_157.asset
-  artifactKey: Guid(73a6ec811390e814e980ecc248652574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_157.asset using Guid(73a6ec811390e814e980ecc248652574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22a179b799429010b3864253fc55e302') in 0.012695 seconds 
-  Import took 0.018510 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000400 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_155.asset
-  artifactKey: Guid(595bd0ccb809f5e4bbd05c732b297132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_155.asset using Guid(595bd0ccb809f5e4bbd05c732b297132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b56332b04d32311ff1fc6d64089ec655') in 0.013987 seconds 
-  Import took 0.019808 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000452 seconds.
-  path: Assets/Spirates/Room_Builder_Office_32x32_158.asset
-  artifactKey: Guid(894ee41162683fc45ab43c501b899c27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Room_Builder_Office_32x32_158.asset using Guid(894ee41162683fc45ab43c501b899c27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '561628561135bf95f76bf690fa9eedbb') in 0.013903 seconds 
-  Import took 0.019611 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 502.334813 seconds.
-  path: Assets/Spirates/Sin nombre.png
-  artifactKey: Guid(b67e01d093d1f9d489fbe2069bb3c2cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Sin nombre.png using Guid(b67e01d093d1f9d489fbe2069bb3c2cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd654eb9f973b98c3cb2230073b0135f0') in 0.022028 seconds 
-  Import took 0.029217 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000423 seconds.
-  path: Assets/Spirates/Test_Tileset.png
-  artifactKey: Guid(434d18e940882f742ad19e8815085e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Test_Tileset.png using Guid(434d18e940882f742ad19e8815085e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d7e6839270ea54ce2264cf9e98ea608') in 0.019498 seconds 
-  Import took 0.024519 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 46.563671 seconds.
-  path: Assets/Spirates/Sin nombre.png
-  artifactKey: Guid(b67e01d093d1f9d489fbe2069bb3c2cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Sin nombre.png using Guid(b67e01d093d1f9d489fbe2069bb3c2cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f1319be5e53df0d00d4c7fd652bfa9f') in 0.012893 seconds 
-  Import took 0.017926 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.021620 seconds.
-  path: Assets/Spirates/Sin nombre.png
-  artifactKey: Guid(b67e01d093d1f9d489fbe2069bb3c2cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Sin nombre.png using Guid(b67e01d093d1f9d489fbe2069bb3c2cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f1319be5e53df0d00d4c7fd652bfa9f') in 0.011942 seconds 
-  Import took 0.018530 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.967685 seconds.
-  path: Assets/Spirates/Test_Tileset.png
-  artifactKey: Guid(434d18e940882f742ad19e8815085e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Test_Tileset.png using Guid(434d18e940882f742ad19e8815085e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aa8f4002fd8990085a88fdd53c9a258') in 0.022725 seconds 
-  Import took 0.029810 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.015984 seconds.
-  path: Assets/Spirates/Test_Tileset.png
-  artifactKey: Guid(434d18e940882f742ad19e8815085e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Test_Tileset.png using Guid(434d18e940882f742ad19e8815085e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aa8f4002fd8990085a88fdd53c9a258') in 0.015039 seconds 
-  Import took 0.021759 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.442843 seconds.
-  path: Assets/Spirates/Test_Tileset.png
-  artifactKey: Guid(434d18e940882f742ad19e8815085e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Test_Tileset.png using Guid(434d18e940882f742ad19e8815085e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cea27619dcb200e1619d90943a4e24ed') in 0.047691 seconds 
-  Import took 0.053933 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.104924 seconds.
-  path: Assets/Spirates/Sin nombre.png
-  artifactKey: Guid(b67e01d093d1f9d489fbe2069bb3c2cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spirates/Sin nombre.png using Guid(b67e01d093d1f9d489fbe2069bb3c2cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ccb43d4d1d4cada562f40f3c0f407ca') in 0.019286 seconds 
-  Import took 0.026340 seconds .
-
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
